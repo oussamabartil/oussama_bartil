@@ -1,0 +1,227 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+body{
+    background: black;
+
+}
+.header{
+position: relative;
+width: 100%;
+height: 100vh;
+background-image: url(page.jpg);
+background-size:contain ;
+background-position: right;
+background-repeat: no-repeat;
+background-color: black;
+}
+.header .navbar{
+position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background-color: black;
+}
+.header .navbar .logo a{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.header .navbar .menu ul{
+    margin-left: 192px;
+}
+.header .navbar .menu ul li{
+display: inline-block;
+margin-right: 35px;
+align-items: center;
+}
+.header .navbar .menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.header .contact-info ul{
+    margin-left: 41px;
+}
+.header .contact-info ul li {
+    display: inline-block;
+}
+.header .contact-info ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.header .contact-info ul li a:hover{
+color: blueviolet;
+}
+.header .contact-info ul li a.sep{
+    margin:  28px;
+    opacity:0.3 ;
+}
+.header .bann {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    color: white;
+}
+
+.header .bann .text{
+    padding-left: 440px;
+
+}
+.header .bann .text .last-name{
+    padding-left: 25px;
+    
+}
+
+.header .bann .text h1 span{
+  color: lightcoral;
+
+}
+.header .navbar .menu ul li a button{
+style: none;
+}
+ #social-menu{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 5%;
+    /* position: absolute; */
+    bottom: 1%;
+    padding: 250px;
+    
+}
+
+ #social-menu ul li {
+    display: inline-block;
+    width: 100px;
+    height: 50%;
+    font-size: xx-large;
+
+}
+
+ #social-menu ul li a {
+color: blanchedalmond;
+transition: all 0.3s;
+}
+ #social-menu ul li a:hover {
+    color: blueviolet;
+}
+#skills li{
+    list-style: none;
+    margin: 8px;
+    padding: 10px;
+}
+
+#skills h1{
+    text-align: center;
+}
+#skills h3{
+    margin: 5px;
+}
+#skills {
+width: 500px;
+margin: 60px auto;
+color: #fff;
+padding: 20px;
+box-shadow:0.14px 28px rgba(0, 0, 0, 0.25) ;
+}
+.bar{
+    background:lightslategray;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ;
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,240,1)0%,rgba(252,103,103,1)100%);
+}
+.html{
+    width: 80%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.C{
+    width: 70%;
+    animation: C 3s;
+}
+.Cplusplus{
+    width: 80%;
+    animation: Cplusplus 3s;
+}
+.SQL{
+    width: 50%;
+    animation: SQL 3s;
+}
+.Javascript{
+    width: 45%;
+    animation: Javascript 3s;
+}
+.sous-menu{
+    display: none;
+    position:absolute;
+}
+
+
+.header li:hover .sous-menu{
+    display: block;
+  
+}
+.header .navbar .menu ul.sous-menu li{
+    position: relative;
+}
+
+.project{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+#project{
+    width: 100%;
+    margin:  auto;
+    margin-bottom: 0%;
+    color: #fff;
+    padding: 20px;
+    box-shadow:0.14px 28px rgba(0, 0, 0, 0.25) ;}
+    #project h1{
+        text-align: center;
+    }
+#cards{
+margin: 10px;
+    width: 21em;
+    border: #fff 2px solid;
+    background-color: black;
+    border-radius: 20px;
+    padding: 25px;
+    transition: 0.8s ease;
+}
+#cards img{
+    height: 9em;
+}
+
+#cards:hover{
+    transform:  scale(1.2);
+    transition: 1s ease;
+}

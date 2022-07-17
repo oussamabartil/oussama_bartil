@@ -1,0 +1,52 @@
+#global{
+    border: 1px solid burlywood;
+    background: yellow;
+}
+#header{
+    border: 1px solid plum;
+    background: plum;
+    height: 90px;
+    margin: 5px;
+    padding: 5px;
+}
+#navigation{
+    border: 1px dotted cyan;
+    background: cyan;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+#contenu{
+    border: 1px solid orange;
+    background: orange;
+    padding: 5px;
+    margin: 5px;
+    min-height: 400px;
+}
+#left{
+    border: 1px solid green;
+    background: green;
+    width: 150px;
+    min-height: 400px;
+    float: left;
+}
+#right{
+    border:1px solid red;
+    background: red;
+    min-height: 400px;
+    margin-left: 160px;
+    overflow: auto;
+}
+#footer{
+    border: 1px solid deeppink;
+    background: deeppink;
+   bottom: 2px;
+   left: 2px;
+   right: 2px;
+   text-align: center;
+
+}
+#firstpic{
+    height:100%;
+    object-fit: cover;
+}
